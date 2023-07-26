@@ -1,0 +1,18 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(87, 83, 83);
+    border-top: 5px solid rgb(230, 38, 70);
+    /* animation-name: spinanimate; */
+    animation: spinanimate 0.7s steps(5) 0s infinite normal;
+}
+
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
